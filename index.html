@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="main-section">
+        <h1 class="title">Todo List</h1>
+        <div class="wrapper">
+          <input class="add-message" type="text" placeholder="Add task" />
+          <button class="button b-add">
+            <svg>
+              <use href="img/icons.svg#icon-add"></use>
+            </svg>
+          </button>
+          <button class="button b-del">
+            <svg>
+              <use href="img/icons.svg#icon-delete"></use>
+            </svg>
+          </button>
+          <button class="clear-local-store">clear</button>
+        </div>
+      </section>
+      <section class="tasks-section">
+        <h2 class="second-title">Tasks for the day</h2>
+        <div class="container-for-task">
+          <!-- <p class="output"></p> -->
+          <!-- <p class="info-task valid">asdaasdsdasdads</p> -->
+        </div>
+      </section>
+    </main>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
